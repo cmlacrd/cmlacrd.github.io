@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+<head>
+	<title>Trx Future ®</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:400,600,700" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	<link href="plugin-frameworks/bootstrap.css" rel="stylesheet">
+	<link href="fonts/ionicons.css" rel="stylesheet">		
+	<link href="common/styles.css" rel="stylesheet">
+	
+</head>
+<body>
+
+	<header>
+		<div class="bg-191">
+			<div class="container">	
+				<div class="oflow-hidden color-ash font-9 text-sm-center ptb-sm-5">
+				
+					<ul class="float-left float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-10">
+						<li><a class="pl-0 pl-sm-10" href="#">About</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+<!-- 					<ul class="float-right float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-5">
+						<li><a class="pl-0 pl-sm-10" href="#"><i class="ion-social-facebook"></i></a></li>
+						<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+						<li><a href="#"><i class="ion-social-google"></i></a></li>
+						<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+						<li><a href="#"><i class="ion-social-bitcoin"></i></a></li>
+					</ul> -->
+					
+				</div><!-- top-menu -->
+			</div><!-- container -->
+		</div><!-- bg-191 -->
+		
+		<div class="container">
+			<a class="logo" href="index.html"><img src="images/logo.png"></a></a>
+			
+			<a class="right-area src-btn" href="#" >
+				<i class="active src-icn ion-search"></i>
+				<i class="close-icn ion-close"></i>
+			</a>
+<!-- 			<div class="src-form">
+				<form>
+					<input type="text" placeholder="Search here">
+					<button type="submit"><i class="ion-search"></i></a></button>
+				</form>
+			</div> <src-form --> 
+			
+			<a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
+			
+			<ul class="main-menu" id="main-menu">
+				<li><a href="02_archive-page.html">NOTÍCIAS</a></li>
+				<li class="drop-down"><a href="#">TESTES DE SOFTWARE<i class="ion-arrow-down-b"></i></a>
+					<ul class="drop-down-menu drop-down-inner">
+						<li><a href="01test_software.html">CONCEITOS E A IMPORTÂNCIA DOS TESTES DE SOFTWARE</a></li>
+						<!-- <li><a href="#">OS TIPOS DE TESTE DE SOFTWARE</a></li> -->
+					</ul>
+				</li>
+			</ul>
+
+			<div class="clearfix"></div>
+		</div><!-- container -->
+	</header>
+<br><br>
+	<div class="container">
+	<article>
+  	<h2 style="text-align: center;" class="bg-primary">Os conceitos e a importância dos testes de software para sua aplicação</h2><br>
+  	<h3>1- INTRODUÇÃO</h3><br>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;Engenharia de Software é uma área muito nova que surgiu, em meados dos anos 2000, com o objetivo de trabalhar com todos os aspectos que envolvem a produção de um software e solucionar a chamada crise do software. Essa crise ocorreu devido à baixa qualidade, prazos e orçamentos previstos não cumpridos e falhas do produto.
+	De acordo com Friedrich Ludwig Bauer, a Engenharia de Software é a criação e a utilização de sólidos princípios de engenharia a fim de obter software de maneira econômica, que seja confiável e que trabalhe em máquinas reais. Em outras palavras, a Engenharia de Software é uma área que utiliza princípios da engenharia e um conjunto de etapas para desenvolver e aplicar métodos com a finalidade de produzir um produto de alta qualidade e baixo custo. [1]<p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;Para obter o que chamamos de <b>Garantia de Qualidade de Software</b> temos uma atividade chamada de VV&T – Verificação, Validação e Teste que tem como objetivo diminuir erros, falhas de codificação que possam interferir no produto. Vale ressaltar que as atividades de VV&T não conduzem ao produto final, são etapas que devem ocorrer durante todo o processo de produção do software. Elas se dividem em dois tipos: atividade estática e a dinâmica. O objetivo desta apostila é tratar de uma atividade dinâmica: <b>a etapa de teste de software</b>. Segundo (Myers, 1979) a etapa de teste é um processo ou um grupo de processos, definidos para garantir que um código faça o que ele foi desenhado para fazer, e não faça nada que não foi especificado para fazer.</p><br>
+    <h3>2- CONCEITO TEÓRICO</h3><br>
+    <h3>2.1- O que é um teste de software?</h3><br>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;“Teste de software é todo e qualquer procedimento que ajuda a determinar se o programa atinge as expectativas para as quais foi criado” (DIAS NETO, 2010). Outro conceito é
+	“Teste é o processo de operar um sistema ou componente do sistema sob condições específicas, observando e registrando o resultado e fazendo uma avaliação de alguns aspectos do sistema ou componente” (IEEE Standard Glossary).</p><br>
+	<h3>2.2 - Por que devo testar e quando devo parar os testes?</h3><br>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;Por que precisamos achar falhas, defeitos e erros dos desenvolvedores durante o processo de produção para conseguir, no final, entregar um produto de qualidade e barato. Quanto mais cedo um defeito é encontrado, mais barato ele custará. É de suma importância verificar se o software está atendendo as expectativas e se está funcionando como deveria.
+	O software só chegou no seu produto final quando foram testados todas as funcionalidades e os seus casos de uso. Os testes só podem ser finalizados quando atingir uma confiança nos requisitos, quando os critérios de encerramento forem atingidos ou quando o custo para identificação dos defeitos não compensam mais. [2]</p><br>
+	<h3>2.3 - Defeito versus Falha versus Erro</h3><br>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;Segundo o International Software Testing Qualifications Board (ISTQB), órgão responsável por emitir o selo de qualidade para testadores de software, o conceito de erro, falha e defeito é:</p>
+	<div class="table-responsive">
+    <table class="table table-striped">
+   		<tbody>
+   			<tr><td><b>Erro</b></td><td>Falha humana que produz resultado inesperado.</td></tr>
+   			<tr><td><b>Falha</b></td><td>Ocorre através da execução de um código defeituoso.</td></tr>
+   			<tr><td><b>Defeito</b></td><td>É um código mal escrito que produz erro e causa irregularidades no sistema.</td></tr>	
+   		</tbody>
+   	</table>
+   	<p>&nbsp;&nbsp;&nbsp;&nbsp;Podemos observar um efeito cascata: toda falha precisa de um defeito para ocorrer, todo defeito precisa de um erro para acontecer e toda falha sempre se origina um erro (ISTQB, 2016). Pode-se concluir que o teste de software apenas irá trabalhar com as falhas do sistema. Segundo Dias Neto (2010), todas as falhas são originadas a partir do erro humano. O processo de produção de um sistema é efetuado a partir do ciclo de desenvolvimento do software. Durante o início do ciclo até o fim dele, é possível obter diversas interpretações e erros, até por que esse ciclo envolve conversar com clientes. Isso pode ser fácil entendido a partir da seguinte imagem. [3]</p>
+   	<p style="text-align: center;"><img src="images/image_test_software01.jpg">Fonte: Google (2018)</p>
+   	<p>&nbsp;&nbsp;&nbsp;&nbsp;Apesar da imagem ser humorística, são situações que podem acontecer de verdade. Por isso, a etapa de teste é bastante ampla. Segundo Inthurn (2001), em média, os testes bem-sucedidos corrigem apenas 60% das falhas do software. O custo para realizá-los é relativamente barato se for comparado com a manutenção corretiva após o término do produto. Para obter um produto de qualidade, é necessário obter uma rotina exaustiva de teste que tem de ocorrer durante todo o desenvolvimento do projeto.</p><br>
+   	<h3>2.4 - Importância dos testes de software para garantia da qualidade</h3><br>
+   	<p>&nbsp;&nbsp;&nbsp;&nbsp;Para iniciar esse assunto, é importante começar com uma pergunta: <b>o que seria a qualidade de software?</b> Segundo Pressman (1994), a qualidade de software é a conformidade a requisitos funcionais e de desempenho que foram explicitamente declarados, a padrões de desenvolvimento claramente documentados, e a características implícitas que são esperadas de todo o software desenvolvido por profissionais. A International Organization Standardization (ISO) e a International Electrotechnical Comission (IEC) também conceituou da seguinte maneira, a qualidade de software é a totalidade de um produto que lhe confere capacidade de satisfazer necessidades explícitas e implícitas.</p>
+   	<p>&nbsp;&nbsp;&nbsp;&nbsp; As necessidades explícitas são aquelas que estão definidas nos requisitos documentados e estão ligadas à qualidade do processo de desenvolvimento do software. E, as necessidades implícitas são aquelas que não estão documentadas, mas são implicitamente necessárias ao usuário e estão relacionadas a qualidade em uso do produto.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;Poŕem, o que é preciso para garantir a qualidade? Segundo (Vasconcelos et al., 2006), a qualidade de software é garantida por meio de atividades que estão focadas na prevenção de defeitos e problemas que podem surgir nos produtos de trabalho. Para conseguir obter a qualidade, é preciso considerar três dimensões: confiança, funcionalidade e performance. A confiança procura saber se o sistema é resistente a falhas, a funcionalidade se os requisitos foram atendidos corretamente e a performance se o tempo de resposta do sistema está adequado e aceitável. Para conseguir atender essas dimensões, utiliza-se o ciclo PDCA: Planejar, Executar, Verificar e Agir.</p>
+	<p style="text-align: center;"><img src="images/ciclo_pdca.png">Fonte: Google (2018)</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;Para entender o ciclo é importante explicar cada etapa:</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;<b>- Planejamento (Plan)</b> para que essa etapa tenha sucesso, é necessário que o projeto do software seja bem elaborado, de maneira que, evite falhas e problemas futuros.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;<b>- Execução (Do)</b> essa é a parte de executar o que foi determinado na etapa de planejamento. Para evitar problemas, essa fase precisa seguir corretamente tudo o que foi estipulado, sem pular etapas ou realizar grandes mudanças.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;<b>- Checagem (Check)</b> nessa etapa é onde se procura as falhas e verificar se tudo está de acordo.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;<b>- Ação (Act)</b> é a última fase do ciclo. Aqui são aplicadas ações corretivas para aperfeiçoar o projeto. É o fim e o começo também, porque o ciclo todo é refeito com novos parâmetros.</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;O processo de teste de software atua na etapa de checagem, mas também no desenvolvimento porque os testes são possíveis de realizar em todas as etapas. Segundo Bartié (2002), a qualidade de software pode ser dividida em teste de verificação e teste de validação. Os testes de verificação focam em garantir o processo de engenharia de software e os de validação estão focados na garantia da qualidade do software. O objetivo desse teste é avaliar a conformidade do software com os requisitos e especificações. [4] </p><br>
+	<h3>3- CONCLUSÃO</h3><br>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp; Os testes de software são uma das etapas mais importantes para o sucesso de uma aplicação. Para que o desenvolvimento do software seja um produto ou serviço de qualidade e com custos baixos, é necessário aplicar os testes de software para garantir esses dois aspectos. Durante todo o ciclo de vida de um desenvolvimento de software, é possível ter erros e interpretações diferentes, até porque foi visto são originadas da falha humana. Por isso, é necessário obter uma rotina exaustiva de teste que tem de ocorrer durante todo o desenvolvimento do projeto. Então, para garantir a qualidade dos testes e, assim, consequentemente, um bom produto final, é preciso executar atividades que foquem na prevenção de defeitos.</p><br>
+	<h3>REFERÊNCIAS BIBLIOGRÁFICAS</h3><br>
+	<p>[1] BARBOSA, E. et al. <b>Introdução ao Teste de Software.</b></p>
+	<p>[2] DEVMEDIA. <b>Testes de software - Introdução.</b> Disponível em: <https:>//www.devmedia.com.br/testes-de-software-introducao/22281></https:> Acesso em 5 de setembro de 2018.</p>
+	<p>[3] BRAGA, Pedro Henrique. <b>Teste de Software.</b> São Paulo: Pearson Education do Brasil, 2016.</p>
+	<p>[4] BARTIÉ, Alexandre. <b>Garantia da Qualidade de Software: As melhores práticas de engenharia de Software aplicadas a sua empresa.</b> São Paulo: Campus, 2002.</p>
+	<p>DE AMORIM, Deivison. et al. <b>Gerenciamento de Teste de Software: Um comparativo entre Ferramentas Open Source.</b> CESAR EDU, 2016.</p>
+	<p>RIOS, Emerson; MOREIRA, Trayahú. <b>Teste de Software. </b>Rio de Janeiro. Alta Books, 2013, 3 ed.</p>
+	<p>PÁDUA, Wilson. <b>Engenharia de Software</b>Rio de Janeiro. LTC Editora, 2 ed.</p>
+	<p>PRESSMAN, Roger; MAXIM, Bruce. <b>Engenharia de Software</b>. São Paulo, AMGH Editora Ltda, 2016, 8 ed.</p><br><br>
+	</article>	
+	</div>
+	
+	
+	
+	<footer class="bg-191 color-ccc">
+		
+		<div class="container">
+			<div class="pt-50 pb-20 pos-relative">
+				<div class="abs-tblr pt-50 z--1 text-center">
+					<div class="h-80 pos-relative"><img class="opacty-1 h-100 w-auto" src="images/map.png" alt=""></div>
+				</div>
+				<div class="row">
+	
+					
+					<div class="col-sm-5">
+						<div class="mb-30">
+							<h5 class="color-primary mb-20"><b>SOBRE O SITE</b></h5>
+							<div class="mb-20">
+							<p class="mtb-20 color-ccc">The Trx Future foi uma ideia criada para espalhar o conhecimento sobre as áreas tecnológicas através de publicações baseadas em artigos ciêntíficos ou qualquer tipo de texto de cunho acadêmico. Além disso, apresentará um seção de notícias para dispor das últimas novidades interessantes sobre o universo tecnológico.</p>
+							</div>
+						</div><!-- mb-30 -->
+					</div><!-- col-md-4 -->
+
+					<div class="col-sm-5">
+						<div class="mb-30">
+							<h5 class="color-primary mb-20"><b>SOBRE MIM</b></h5>
+							<div class="mb-20">
+									<p class="mtb-20 color-ccc">Olá! Eu me chamo Camila Cardoso e sou estudante de gradução do curso Ciência da Computação pelo UniCEUB. Estou no 6º Semestre e pretendo seguir a área de Business Intelligence. Criei esse site por gostar de estudar e adquirir conhecimentos sobre diversas áreas. Acredito que uma das maiores formas de aprender é através do compartilhamento de conhecimento entre pessoas. Espero que os meus estudos e conteúdos te ajudem bastante. Estou aberta à sugestões e críticas também.</p>
+									<p> "Um ladrão rouba um tesouro, mas não furta a inteligência. Uma crise destrói uma herança, mas não uma profissão. Não importa se você não tem dinheiro, você é uma pessoa rica, pois possui o maior de todos os capitais: a sua inteligência. Invista nela. Estude!" Augusto Cury</p>
+							</div>
+						</div><!-- mb-30 -->
+					</div><!-- col-md-4 -->
+
+					<div class="col-sm-2">
+						<div class="mb-30">
+							<a href="#"><img src="images/perfil.JPG"></a>
+						</div><!-- mb-30 -->
+					</div><!-- col-md-4 -->
+											<p class="color-ash"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+					
+				</div><!-- row -->
+			</div><!-- ptb-50 -->
+			
+			<div class="brdr-ash-1 opacty-2"></div>
+			
+			<div class="oflow-hidden color-ash font-9 text-sm-center ptb-sm-5">
+			
+				<ul class="float-left float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-10">
+<!-- 					<li><a class="pl-0 pl-sm-10" href="#">Terms & Conditions</a></li> -->
+	<!-- 				<li><a href="#">Privacy policy</a></li>
+					<li><a href="#">Jobs advertising</a></li> -->
+<!-- 					<li><a href="#">Contato</a></li> -->
+				</ul>
+<!-- 				<ul class="float-right float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-5">
+					<li><a class="pl-0 pl-sm-10" href="#"><i class="ion-social-facebook"></i></a></li>
+					<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+					<li><a href="#"><i class="ion-social-google"></i></a></li>
+					<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+					<li><a href="#"><i class="ion-social-bitcoin"></i></a></li>
+				</ul> -->
+				
+			</div><!-- oflow-hidden -->
+		</div><!-- container -->
+	</footer>
+	
+	<!-- SCIPTS -->
+	<script src="plugin-frameworks/jquery-3.2.1.min.js"></script>
+	<script src="plugin-frameworks/tether.min.js"></script>
+	<script src="plugin-frameworks/bootstrap.js"></script>
+	<script src="common/scripts.js"></script>
+	
+</body>
+</html>
