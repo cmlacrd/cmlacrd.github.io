@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+<head>
+	<title>Trx Future ®</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:400,600,700" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	<link href="../plugin-frameworks/bootstrap.css" rel="stylesheet">
+	<link href="../fonts/ionicons.css" rel="stylesheet">		
+	<link href="../common/styles.css" rel="stylesheet">
+	
+</head>
+<body>
+
+	<header>
+		<div class="bg-191">
+			<div class="container">	
+				<div class="oflow-hidden color-ash font-9 text-sm-center ptb-sm-5">
+				
+					<ul class="float-left float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-10">
+						<li><a class="pl-0 pl-sm-10" href="#">About</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+<!-- 					<ul class="float-right float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-5">
+						<li><a class="pl-0 pl-sm-10" href="#"><i class="ion-social-facebook"></i></a></li>
+						<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+						<li><a href="#"><i class="ion-social-google"></i></a></li>
+						<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+						<li><a href="#"><i class="ion-social-bitcoin"></i></a></li>
+					</ul> -->
+					
+				</div><!-- top-menu -->
+			</div><!-- container -->
+		</div><!-- bg-191 -->
+		
+		<div class="container">
+			<a class="logo" href="../index.html"><img src="../images/logo.png"></a></a>
+			
+			<a class="right-area src-btn" href="#" >
+				<i class="active src-icn ion-search"></i>
+				<i class="close-icn ion-close"></i>
+			</a>
+<!-- 			<div class="src-form">
+				<form>
+					<input type="text" placeholder="Search here">
+					<button type="submit"><i class="ion-search"></i></a></button>
+				</form>
+			</div> <src-form --> 
+			
+			<a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
+			
+			<ul class="main-menu" id="main-menu">
+				<li><a href="02_archive-page.html">NOTÍCIAS</a></li>
+				<li class="drop-down"><a href="#">TESTES DE SOFTWARE<i class="ion-arrow-down-b"></i></a>
+					<ul class="drop-down-menu drop-down-inner">
+						<li><a href="01test_software.html">CONCEITOS E A IMPORTÂNCIA DOS TESTES DE SOFTWARE</a></li>
+						<li><a href="02test_software.html">OS TIPOS DE TESTE DE SOFTWARE</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<div class="clearfix"></div>
+		</div><!-- container -->
+	</header>
+<br><br>
+	<div class="container">
+	<article>
+  	<h2 style="text-align: center;" class="bg-primary">Os tipos de testes de software e sua características</h2><br>
+
+  	<h3>1- INTRODUÇÃO</h3><br>
+
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;Concordamos que os testes são uma parte importante para obter um software de qualidade. É importante falar que eles não são feitos ao acaso e todos tem um porquê. Segundo Pressman (1995), os tipos de testes consistem em elaborar casos de testes capazes de varrer todo o software a procura de erros.<p>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;Dependendo para qual finalidade você está utilizando o seu teste, alguns se tornarão mais difíceis de serem implementados se forem colocados em uma etapa errada. Por isso, detalharemos sobre os principais tipos: teste unitário, de integração, de sistema, de aceitação, de regressão, de integridade de dados e de configuração e instalação.</p><br>
+
+  	<h3>2 - CONCEITO TEÓRICO</h3><br>
+
+  	<h4>2.1- Teste de Unidade</h4><br>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;De acordo com Pressman (1995), o teste de unidade focaliza o esforço de verificação na menor unidade de projeto, ou seja, o componente ou módulo de software. Wazlawick (2001) também fala que, o teste unitário ou de unidade, possibilita que cada módulo do sistema seja verificado de maneira individual.</p>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;Pressman (1995) também afirma que, a interface do módulo é testada para assegurar que as informações fluam corretamente para dentro e fora da unidade de programa que está em teste. A estrutura de dados local é examinada para garantir que os dados armazenados temporariamente mantenham sua integridade durante todos os passos quando um algoritmo for executado. Todos os caminhos independentes da estrutura de controle são usados para assegurar que todas as instruções em um módulo sejam executadas pelo menos uma vez. Por fim, são testados todos os caminhos de manipulação de erro.</p><br>
+  	<p style="text-align: center;"><img style="width: 30%"src="../images/unit_test.jpeg"></p><br>
+  	<p>Fonte: Google (2018)</p>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;Essa imagem consegue exemplificar a proposta do teste de unidade que é testar um único módulo do sistema de maneira individual. </p><br>
+
+  	<h4>2.2- Teste de Integração</h4><br>
+
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;O significado da palavra integração é ação de incorporar um elemento em um conjunto. Isso já ajuda a entender qual a finalidade do teste de integração que é testar as integrações entre as unidades. O objetivo é encontrar possíveis falhas entre os componentes internos de um sistema [5].</p>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;De acordo com Pressman (1995), o teste de integração é uma técnica sistemática para construir a arquitetura de software, ao mesmo tempo em que se realizam testes para descobrir erros associados às interfaces. Wazlawick (2011) diz que, o objetivo do teste de integração é verificar se os objetos se comunicam adequadamente. Isso pode ser feito de forma modular e sistemática. Estando os métodos básicos resolvidos, cabe verificar se os métodos delegados e operações de sistema funciona conforme o esperado.</p>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;Braga (2016) coloca que, de maneira geral, ocorre algumas etapas:</p>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;1-	Primeiro, os módulos são testados de maneira individual através de testes unitários.</p>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;2-	Em seguida, os módulos são agrupados para checagem de erros na interface entre eles para medir níveis de desempenho e confiabilidade.</p>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;3-	Por último, todos os grupos de integração são testados por testes de sistema, que será visto no próximo tópico.</p><br>
+
+  	<h4>2.3- Teste de Sistema</h4><br>
+
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;Segundo Emerson Rios (2013), o teste de sistema visa executar o sistema como um todo ou um subsistema, dentro de um ambiente operacional controlado, para avaliar a exatidão e perfeição na execução de suas funções.</p>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;Wazlawick (2011) afirma que o teste de sistema são avaliados ao ponto de vista do usuário e por isso eles avaliam itens como, qualidade da interface gráfica, funcionamento correto das funções e etc.</p><br>
+
+  	<h4>2.4- Teste de Aceitação</h4><br>
+
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;Emerson Rios (2013) afirma que são teste finais de execução do sistema, realizados pelos usuários, visando verificar se o software está atendendo os requisitos e o objetivo do negócio, no que diz respeito a usabilidade e à funcionalidade. Segundo a IBM, são parecidos com os testes de sistema, porém com um foco maior voltado aos usuários.</p><br>
+
+  	<h4>2.5- Teste de Regressão</h4><br>
+
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;Tem como objetivo permitir que o software permaneça intacto após sofrer alterações. Graham, et al. (2007) diz que é a reaplicação de testes nas novas versões do sistema para verificar a existência de erros e corrigi-los.</p><br>
+
+  	<h4>2.6- Teste de Integridade de Dados</h4><br>
+
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;Braga (2016, p. 18) explica que são testes que consistem na validação da confiabilidade e da integridade dos dados. Garante a robustez do programa e sua capacidade de resistir a falhas. </p><br>
+
+  	<h4>2.7- Teste de Configuração e Instalação</h4><br>
+
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;São testes realizados para garantir que o sistema funcione em diversas plataformas sem a ocorrência de falhas. </p><br>
+
+  	<h3>3 - AS ABORDAGENS DE TESTE</h3><br>
+
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;Segundo Braga (2016, p.20) existem várias maneiras de se testar um software, porém existem técnicas específicas que são utilizadas em modelos de linguagens estruturadas. Essas técnicas de caixa-branca e caixa-preta são utilizadas quando um teste de estrutura lógica simples não suporta a complexidade do sistema.</p><br>
+
+  	<h4>3.1 - Teste de Caixa-Branca</h4><br>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;É uma técnica que trabalha diretamente com o código fonte e permite que todos nós do programa sejam testados considerando apenas os resultados significativos.Por exemplo, um código que tenha muitos loops possuem muitos caminhos. O teste de caixa branca permite que apenas os caminhos lógicos relevantes sejam testados.</p><br>
+
+  	<h4>3.1 - Teste de Caixa-Preta</h4><br>
+
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;O teste de caixa-preta não avalia o comportamento interno do sistema, ou seja, ele avalia apenas entrada e saídas.Ele é feito por meio de comparação. Os dados de entrada são fornecidos e depois comparados com o resultado previamente esperado. </p><br>
+
+  	<h3>4 - CONCLUSÃO</h3><br>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp; Existem vários tipos de teste e cada um possui uma característica específica que vai te auxiliar na garantia da qualidade de software. Para determinar qual teste implementar, é preciso saber qual é a etapa do desenvolvimento de software que a sua aplicação se encontra. Dependendo da etapa, executar um tipo de teste pode se tornar uma tarefa complexa, ou seja, é importante ter conhecimento do conceito, características e aplicabilidades de cada tipo de teste. Além disso, existem também técnicas específicas que são utilizadas em modelos de linguagens estruturadas e elas são: teste de caixa preta e teste de caixa branca. Cada qual tem sua vantagem em uma aplicação, por exemplo, o teste de caixa branca é indicado em códigos que possuem muitos loops. Já o de caixa-preta está focadao em avaliar as entradas e saídas dos programas. Resumindo, é preciso conhecer a etapa na qual o software se encontra para conseguir escolher qual teste e qual técnica utilizar para aplicar no software e, assim, ter uma aplicação de qualidade..</p><br>
+<!--   	<p>&nbsp;&nbsp;&nbsp;&nbsp;</p><br>
+  	<p>&nbsp;&nbsp;&nbsp;&nbsp;</p><br> -->
+
+  	<h3>REFERÊNCIAS BIBLIOGRÁFICAS</h3><br>
+
+	<p>[1] BARBOSA, E. et al. <b>Introdução ao Teste de Software.</b></p>
+	<p>[2] DEVMEDIA. <b>Testes de software - Introdução.</b> Disponível em: <https:>//www.devmedia.com.br/testes-de-software-introducao/22281></https:> Acesso em 5 de setembro de 2018.</p>
+	<p>[3] BRAGA, Pedro Henrique. <b>Teste de Software.</b> São Paulo: Pearson Education do Brasil, 2016.</p>
+	<p>[4] BARTIÉ, Alexandre. <b>Garantia da Qualidade de Software: As melhores práticas de engenharia de Software aplicadas a sua empresa.</b> São Paulo: Campus, 2002.</p>
+	<p>[5] Neto, Durvalino et al. <b>GERENCIAMENTO E AUTOMAÇÃO DE TESTES PARA ALCANCE DA QUALIDADE DE SOFTWARE.</b> Faculdade Integrada de Três Lagoas.</p>
+	<p>DE AMORIM, Deivison. et al. <b>Gerenciamento de Teste de Software: Um comparativo entre Ferramentas Open Source.</b> CESAR EDU, 2016.</p>
+	<p>RIOS, Emerson; MOREIRA, Trayahú. <b>Teste de Software. </b>Rio de Janeiro. Alta Books, 2013, 3 ed.</p>
+	<p>PÁDUA, Wilson. <b>Engenharia de Software</b>Rio de Janeiro. LTC Editora, 2 ed.</p>
+	<p>PRESSMAN, Roger; MAXIM, Bruce. <b>Engenharia de Software</b>. São Paulo, AMGH Editora Ltda, 2016, 8 ed.</p>
+	<p>CARVALHO, Márcio Filipe. <b>AUTOMATIZAÇÃO DE TESTES DE SOFTWARE</b>. Coimbra, 2010.</p><br><br>
+	
+
+	</article>	
+	</div>
+	
+	
+	
+	<footer class="bg-191 color-ccc">
+		
+		<div class="container">
+			<div class="pt-50 pb-20 pos-relative">
+				<div class="abs-tblr pt-50 z--1 text-center">
+					<div class="h-80 pos-relative"><img class="opacty-1 h-100 w-auto" src="images/map.png" alt=""></div>
+				</div>
+				<div class="row">
+	
+					
+					<div class="col-sm-5">
+						<div class="mb-30">
+							<h5 class="color-primary mb-20"><b>SOBRE O SITE</b></h5>
+							<div class="mb-20">
+							<p class="mtb-20 color-ccc">The Trx Future foi uma ideia criada para espalhar o conhecimento sobre as áreas tecnológicas através de publicações baseadas em artigos ciêntíficos ou qualquer tipo de texto de cunho acadêmico. Além disso, apresentará um seção de notícias para dispor das últimas novidades interessantes sobre o universo tecnológico.</p>
+							</div>
+						</div><!-- mb-30 -->
+					</div><!-- col-md-4 -->
+
+					<div class="col-sm-5">
+						<div class="mb-30">
+							<h5 class="color-primary mb-20"><b>SOBRE MIM</b></h5>
+							<div class="mb-20">
+									<p class="mtb-20 color-ccc">Olá! Eu me chamo Camila Cardoso e sou estudante de gradução do curso Ciência da Computação pelo UniCEUB. Estou no 6º Semestre e pretendo seguir a área de Business Intelligence. Criei esse site por gostar de estudar e adquirir conhecimentos sobre diversas áreas. Acredito que uma das maiores formas de aprender é através do compartilhamento de conhecimento entre pessoas. Espero que os meus estudos e conteúdos te ajudem bastante. Estou aberta à sugestões e críticas também.</p>
+									<p> "Um ladrão rouba um tesouro, mas não furta a inteligência. Uma crise destrói uma herança, mas não uma profissão. Não importa se você não tem dinheiro, você é uma pessoa rica, pois possui o maior de todos os capitais: a sua inteligência. Invista nela. Estude!" Augusto Cury</p>
+							</div>
+						</div><!-- mb-30 -->
+					</div><!-- col-md-4 -->
+
+					<div class="col-sm-2">
+						<div class="mb-30">
+							<a href="#"><img src="../images/perfil.JPG"></a>
+						</div><!-- mb-30 -->
+					</div><!-- col-md-4 -->
+											<p class="color-ash"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+					
+				</div><!-- row -->
+			</div><!-- ptb-50 -->
+			
+			<div class="brdr-ash-1 opacty-2"></div>
+			
+			<div class="oflow-hidden color-ash font-9 text-sm-center ptb-sm-5">
+			
+				<ul class="float-left float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-10">
+<!-- 					<li><a class="pl-0 pl-sm-10" href="#">Terms & Conditions</a></li> -->
+	<!-- 				<li><a href="#">Privacy policy</a></li>
+					<li><a href="#">Jobs advertising</a></li> -->
+<!-- 					<li><a href="#">Contato</a></li> -->
+				</ul>
+<!-- 				<ul class="float-right float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-5">
+					<li><a class="pl-0 pl-sm-10" href="#"><i class="ion-social-facebook"></i></a></li>
+					<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+					<li><a href="#"><i class="ion-social-google"></i></a></li>
+					<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+					<li><a href="#"><i class="ion-social-bitcoin"></i></a></li>
+				</ul> -->
+				
+			</div><!-- oflow-hidden -->
+		</div><!-- container -->
+	</footer>
+	
+	<!-- SCIPTS -->
+	<script src="../plugin-frameworks/jquery-3.2.1.min.js"></script>
+	<script src="../plugin-frameworks/tether.min.js"></script>
+	<script src="../plugin-frameworks/bootstrap.js"></script>
+	<script src="../common/scripts.js"></script>
+	
+</body>
+</html>
