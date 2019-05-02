@@ -120,7 +120,9 @@ header:after{ content:''; clear: both; }
 
 header .logo{ float: left; height: 24px; margin: 28px 0; }
 
-header .logo img{ height: 100%; width: auto; }
+header .logo img{ width: auto; height: 259%;
+    width: auto;
+    margin-top: -22%;}
 
 
 header .main-menu{ float: right; }
