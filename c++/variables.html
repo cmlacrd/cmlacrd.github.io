@@ -9,7 +9,7 @@
 	<!-- Font -->
 	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:400,600,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	
+
 	<!-- Stylesheets -->
 	<link href="../plugin-frameworks/bootstrap.css" rel="stylesheet">
 	<link href="../fonts/ionicons.css" rel="stylesheet">		
@@ -53,7 +53,7 @@
 			<a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
 			
 			<ul class="main-menu" id="main-menu">
-				<li><a href="notices.html">NOTÍCIAS</a></li>
+				<li><a href="../notices/notices.html">NOTÍCIAS</a></li>
 				<li class="drop-down"><a href="#">CONTEÚDOS & ARTIGOS<i class="ion-arrow-down-b"></i></a>
 					<ul class="drop-down-menu drop-down-inner">
 						<li class="dropdown-header">TESTES DE SOFTWARE</li>
@@ -66,8 +66,8 @@
 				<li class="drop-down"><a href="#">LINGUAGENS DE PROGRAMAÇÃO & CÓDIGOS<i class="ion-arrow-down-b"></i></a>
 					<ul class="drop-down-menu drop-down-inner">
 						<li class="dropdown-header">C++</li>
-						<li><a href="../c++/introdution.html">INTRODUÇÃO A LINGUAGEM C++</a></li>
-						<li><a href="../c++/variables.html">VARIÁVEIS EM C++</a></li>
+						<li><a href="introdution.html">INTRODUÇÃO A LINGUAGEM C++</a></li>
+						<li><a href="variables.html">VARIÁVEIS EM C++</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -76,28 +76,48 @@
 		</div><!-- container -->
 	</header>
 
-	<section class="ptb-0">
-		<div class="mb-30 brdr-ash-1 opacty-5"></div>
-		<div class="container">
+<section class="ptb-0">
+	<div class="mb-30 brdr-ash-1 opacty-5"></div>
+	<div class="container">
 			<a class="mt-10" href="../index.html"><i class="mr-5 ion-ios-home"></i>Home<i class="mlr-10 ion-chevron-right"></i></a>
-			<a class="mt-10 color-ash" href="notices.html">Notícias</a>
-		</div><!-- container -->
-	</section>
+			<a class="mt-10" href="#">C++</a>
+	</div>
+</section>
 
 <section>
 	<div class="container">
 	<article>
-  	<h2 style="text-align: center;">Foi detectado pela primeira vez um possível terremoto em Marte pela Sonda InSight</h2><br>
-  		<h5>por Camila Cardoso, 03/05/2019</h5><br>
-  		<p style="text-align:center !important;"><img style="width: 60%;" src="../images/noticias/sonda_insight.jpg"><p>
-  		<p>Fonte Google (2019)</p><br>
-  	  	<p>A Sonda InSight foi enviada à Marte, em 2018, com o objetivo de investigar o interior de Marte. Desde que chegou, essa foi a primeira vez, no dia 6 de abril de 2019, que o robô detectou evidências de abalos sísmicos.</p><br>
-  	  	<p>Apesar da suspeita, ainda não houve nenhuma confirmação por parte dos cientistas. Os dados ainda estão sendo examinados para tentar entender a causa exata desse pequeno tremor.</p><br>
-  	  	<p>Em um comunicado da Nasa, foi comparado a superfície da Terra com a de Marte. Eles disseram que a superfície marciana é super silenciosa, diferente da superfície da Terra. Os abalos sísmicos que ocorrem aqui acontecem devido as placas tectônicas, mas, em Marte, os problemas não são as camadas de rochas e, sim, as baixas temperaturas que resfriam e contraem a superfície gerando um estresse entre as rochas que, por consequência, liberam energia em forma de tremor.</p><br>
-  	  	<p>No vídeo liberado pela Nasa, dá para escutar os sons captados pelo sismógrafo e ele pode ser encontrado neste <b><a href="https://youtu.be/DLBP-5KoSCc">link</a></b>.</p><br>
-  	  	<p>Fontes:</p>
-  	  	<p>https://brasil.elpais.com/brasil/2019/04/24/ciencia/1556104206_574077.html</p>
-  	  	<p>https://super.abril.com.br/ciencia/sonda-da-nasa-detecta-primeiro-terremoto-em-marte/</p>
+  	<h2 style="text-align: center;" class="bg-primary">Variáveis em C++</h2><br>
+  	<h5>por Camila Cardoso, 09/05/2019</h5><br>
+  	<p>Já foi introduzido uma pequena explicação sobre a história da Linguagem C++ no <b><a href="introdution.html">tópico anterior</b></a>, além disso, também foi feito feito um código ensinando o “Hello World!”, agora vamos entrar em outro assunto que são as variáveis em C++.</p><br>
+  	<p>Você sabe o que é uma linguagem de programação tipada? Se não sabe, vou explicar aqui. As linguagens de programação tipadas são aquelas que possuem um tipo bem definido e que precisam ser especificados. A Linguagem C++ se enquadra nas linguagens tipadas, inclusive é definida como uma linguagem <b>fortemente</b> tipada, é importante salientar que existem classificações dentro das linguagens tipadas, mas não vamos entrar no mérito deste assunto agora. A linguagem fortemente tipada segue o mesmo conceito já dito, ou seja, isso significa que cada variável possui seu tipo e necessita especificação.</p><br>
+  	<p>Agora que já entendemos um conceito básico que envolve as variáveis, falaremos um pouco sobre os tipos que existem em C++.</p><br>
+  	<h3 style="text-align: center;"><b>Os principais tipos de variáveis</b></h3><br>
+  	<div class="table-responsive">
+    <table class="table table-striped">
+   		<tbody>
+   			<tr><td><b>char</b></td><td>Armazena um caractere ou um inteiro pequeno.</td></tr>
+   			<tr><td><b>short int</b></td><td>Armazena valor de 0 a 65.535.</td></tr>
+   			<tr><td><b>int</b></td><td>Armazena valor de 0 a 4294967295.</td></tr>
+   			<tr><td><b>long int</b></td><td>Armazena valor de 0 a 4294967295.</td></tr>
+   			<tr><td><b>bool</b></td><td>True ou False.</td></tr>
+   			<tr><td><b>float</b></td><td>Armazena valores de 1.2e-308 a 3.4e-38.</td></tr>
+   			<tr><td><b>double</b></td><td>Armazena valores: de 2.2e-308 a 3.4e-38. </td></tr>	
+   		</tbody>
+   	</table></div><br>
+   	<p> Então, podemos dizer que a declaração em C++ se faz da seguinte maneira:</p>
+	<h5 style="text-align: center;"><b>{tipo da variável} nome = {valor correspondente ao tipo};</h5></b><br>
+	<p>Exemplos de usabilidade das variáveis em C++:</p><br>
+	<p><b>int</b> numero = 10;</p><br>
+	<p><b>bool</b> condicao = false;</p><br>
+	<p><b>char</b> caractere = 1;</p><br>
+	<p><b>float</b> total = 4.58;</p><br>
+	<p>Não é um assunto difícil de entender, pode até parecer meio bobo, mas é necessário, ainda mais quando estamos falando de uma linguagem fortemente tipada.</p><br>
+
+	<h3>REFERÊNCIAS BIBLIOGRÁFICAS</h3><br>
+
+	<p>SANTEE, André.<b> Programação de Jogos com C++ e DirectX</b></p>
+	<p>SAADE, Joel.<b> Programando em C++</b></p><br><br>
 	</article>	
 	</div>
 </section>
